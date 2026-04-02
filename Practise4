@@ -1,0 +1,11 @@
+
+firstname=input("Enter your first name:")
+lastname=input("Enter your last name:")
+name=firstname+""+lastname
+print(firstname+lastname)
+
+print(len(name))
+
+username=firstname[0:3]+lastname[0:3]
+
+print(username)
